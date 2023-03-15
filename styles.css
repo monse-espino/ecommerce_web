@@ -4,12 +4,17 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  background-color: #efecf5;
 }
 
 nav {
   height: 80px;
   display: flex;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  max-height: 50vh;
 }
 
 .nav__container {
@@ -20,6 +25,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+}
+
+.color {
+   color: #3a336a;
 }
 
 .logo {
@@ -38,7 +47,7 @@ li {
   margin-left: 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #633f24;
+  color: #3a336a;
   font-weight: bold;
   padding: 8px;
 }
@@ -48,10 +57,70 @@ li {
 }
 
 .nav__link--primary {
-  border: 2px solid #633f24;
+  border: 2px solid #3a336a;
   border-radius: 4px;
 }
 
 .nav__link--primary:hover {
   text-decoration: none;
+}
+
+#landing {
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+header {
+  height: calc(100vh - 80px);
+}
+
+.header__container {
+  padding-top: 32px;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 56px; 
+  color: #3a336a;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.btn {
+  background-color: #3a336a;
+  color: white;
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.header__img--wrapper {
+  padding: 20px;
 }
