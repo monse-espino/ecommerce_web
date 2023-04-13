@@ -37,7 +37,7 @@ p {
 }
 
 .color {
-   color: #3a336a;
+   color: #8c80d7;
 }
 
 .logo {
@@ -226,6 +226,7 @@ FEATURES
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -270,4 +271,11 @@ FEATURES
   padding-right: 8px;
   color: #bfbfbf;
 }
+
+/*
+
+LATEST
+
+*/
+
 
